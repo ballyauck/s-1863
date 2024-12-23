@@ -26,7 +26,7 @@ const Navbar = () => {
     <>
       {/* Mobile Navbar */}
       <nav 
-        className={`md:hidden fixed w-full z-50 px-4 h-[50px] flex items-center justify-between transition-all duration-300 ${
+        className={`md:hidden fixed w-full z-50 px-4 h-[80px] flex items-center justify-between transition-all duration-300 ${
           isScrolled ? 'bg-white shadow-sm' : 'bg-transparent'
         }`}
       >
@@ -48,7 +48,7 @@ const Navbar = () => {
 
       {/* Desktop Navbar */}
       <nav 
-        className={`fixed w-full z-50 px-6 h-[50px] transition-all duration-300 hidden md:block ${
+        className={`fixed w-full z-50 px-6 h-[100px] transition-all duration-300 hidden md:block ${
           isScrolled ? 'bg-white shadow-sm' : 'bg-transparent'
         }`}
       >
