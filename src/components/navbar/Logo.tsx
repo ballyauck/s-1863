@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <Link 
       to="/" 
-      className="flex md:w-[200px] md:h-[80px] w-[150px] h-[60px] items-center justify-center"
+      className="flex md:w-[25rem] md:h-20 w-[10rem] h-[40px] items-center justify-center md:scale-100 scale-[1.3]"
     >
       <img 
         src="/lovable-uploads/923f72ac-68ff-4281-b991-9c4d2bde01ba.png" 
